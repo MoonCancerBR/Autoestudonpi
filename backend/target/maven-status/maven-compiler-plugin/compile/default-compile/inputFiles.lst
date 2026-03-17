@@ -1,0 +1,11 @@
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/entity/Produto.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/service/CategoriaService.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/repository/ProdutoRepository.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/dto/CategoriaDTO.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/entity/Categoria.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/service/ProdutoService.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/ProdutosApiApplication.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/controller/CategoriaController.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/repository/CategoriaRepository.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/dto/ProdutoDTO.java
+/home/npi/Downloads/crud-produtos-categorias/backend/src/main/java/com/example/controller/ProdutoController.java

@@ -1,0 +1,14 @@
+com/example/ProdutosApiApplication$1.class
+com/example/ProdutosApiApplication.class
+com/example/dto/CategoriaDTO.class
+com/example/entity/Produto.class
+com/example/repository/ProdutoRepository.class
+com/example/controller/CategoriaController$ErrorResponse.class
+com/example/controller/ProdutoController$ErrorResponse.class
+com/example/entity/Categoria.class
+com/example/repository/CategoriaRepository.class
+com/example/dto/ProdutoDTO.class
+com/example/service/CategoriaService.class
+com/example/service/ProdutoService.class
+com/example/controller/CategoriaController.class
+com/example/controller/ProdutoController.class

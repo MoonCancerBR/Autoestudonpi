@@ -1,0 +1,1104 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.example:produtos-api[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Produtos API 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.7.15:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mprodutos-api[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mprodutos-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mprodutos-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 11 source files to /home/npi/Downloads/crud-produtos-categorias/backend/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mprodutos-api[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/npi/Downloads/crud-produtos-categorias/backend/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mprodutos-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.7.15:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mprodutos-api[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.7.15:run[m [1m(default-cli)[m @ [36mprodutos-api[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+15:01:49.009 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4858b40a
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.15)
+
+2026-03-17 15:01:49.391  INFO 15664 --- [  restartedMain] com.example.ProdutosApiApplication       : Starting ProdutosApiApplication using Java 17.0.18 on npi-OptiPlex-7010 with PID 15664 (/home/npi/Downloads/crud-produtos-categorias/backend/target/classes started by npi in /home/npi/Downloads/crud-produtos-categorias/backend)
+2026-03-17 15:01:49.391 DEBUG 15664 --- [  restartedMain] com.example.ProdutosApiApplication       : Running with Spring Boot v2.7.15, Spring v5.3.29
+2026-03-17 15:01:49.392  INFO 15664 --- [  restartedMain] com.example.ProdutosApiApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-03-17 15:01:49.444  INFO 15664 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-17 15:01:49.444  INFO 15664 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-17 15:01:49.994  INFO 15664 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-17 15:01:50.043  INFO 15664 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2026-03-17 15:01:50.671  INFO 15664 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-03-17 15:01:50.682  INFO 15664 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-17 15:01:50.683  INFO 15664 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2026-03-17 15:01:50.749  INFO 15664 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-03-17 15:01:50.749  INFO 15664 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2026-03-17 15:01:50.877  INFO 15664 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-17 15:01:50.932  INFO 15664 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-03-17 15:01:51.088  INFO 15664 --- [  restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-03-17 15:01:51.179  INFO 15664 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-17 15:01:51.494  INFO 15664 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-17 15:01:51.514  INFO 15664 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-03-17 15:01:52.214  INFO 15664 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-03-17 15:01:52.222  INFO 15664 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-17 15:01:52.690  WARN 15664 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-17 15:01:52.794 DEBUG 15664 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-03-17 15:01:52.881 DEBUG 15664 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2026-03-17 15:01:52.898 DEBUG 15664 --- [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-03-17 15:01:52.907 DEBUG 15664 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-03-17 15:01:52.974  INFO 15664 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-17 15:01:53.002  INFO 15664 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2026-03-17 15:01:53.012  INFO 15664 --- [  restartedMain] com.example.ProdutosApiApplication       : Started ProdutosApiApplication in 3.995 seconds (JVM running for 4.368)
+2026-03-17 15:02:31.531  INFO 15664 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-17 15:02:31.531  INFO 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-17 15:02:31.532 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-03-17 15:02:31.532 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-03-17 15:02:31.532 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2026-03-17 15:02:31.533 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@99a7be0
+2026-03-17 15:02:31.534 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@38ebbe4b
+2026-03-17 15:02:31.534 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-03-17 15:02:31.534  INFO 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-17 15:02:31.544 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/categorias", parameters={}
+2026-03-17 15:02:31.550 DEBUG 15664 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#listarTodas()
+2026-03-17 15:02:31.684 DEBUG 15664 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+2026-03-17 15:02:31.717 DEBUG 15664 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:02:31.720 DEBUG 15664 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nome=Churras)]]
+2026-03-17 15:02:31.752 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:02:35.031 DEBUG 15664 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/categorias", parameters={}
+2026-03-17 15:02:35.031 DEBUG 15664 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#listarTodas()
+2026-03-17 15:02:35.035 DEBUG 15664 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10", parameters={masked}
+2026-03-17 15:02:35.035 DEBUG 15664 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:02:35.036 DEBUG 15664 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+2026-03-17 15:02:35.040 DEBUG 15664 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:02:35.040 DEBUG 15664 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nome=Churras)]]
+2026-03-17 15:02:35.041 DEBUG 15664 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:02:35.053 DEBUG 15664 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+2026-03-17 15:02:35.063 DEBUG 15664 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:02:35.088 DEBUG 15664 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:02:35.088 DEBUG 15664 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:02:35.100 DEBUG 15664 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:02:40.574 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/produtos/3", parameters={}
+2026-03-17 15:02:40.576 DEBUG 15664 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#deletar(Long)
+2026-03-17 15:02:40.578 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:02:40.584 DEBUG 15664 --- [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : DELETE "/api/produtos/3", parameters={}
+2026-03-17 15:02:40.586 DEBUG 15664 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#deletar(Long)
+2026-03-17 15:02:40.595 DEBUG 15664 --- [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_0_,
+        produto0_.updated_at as updated_2_1_0_,
+        produto0_.categoria_id as categori8_1_0_,
+        produto0_.created_at as created_3_1_0_,
+        produto0_.descricao as descrica4_1_0_,
+        produto0_.nome as nome5_1_0_,
+        produto0_.preco as preco6_1_0_,
+        produto0_.quantidade as quantida7_1_0_,
+        categoria1_.id as id1_0_1_,
+        categoria1_.updated_at as updated_2_0_1_,
+        categoria1_.created_at as created_3_0_1_,
+        categoria1_.nome as nome4_0_1_ 
+    from
+        produtos produto0_ 
+    left outer join
+        categorias categoria1_ 
+            on produto0_.categoria_id=categoria1_.id 
+    where
+        produto0_.id=?
+Hibernate: 
+    select
+        produto0_.id as id1_1_0_,
+        produto0_.updated_at as updated_2_1_0_,
+        produto0_.categoria_id as categori8_1_0_,
+        produto0_.created_at as created_3_1_0_,
+        produto0_.descricao as descrica4_1_0_,
+        produto0_.nome as nome5_1_0_,
+        produto0_.preco as preco6_1_0_,
+        produto0_.quantidade as quantida7_1_0_,
+        categoria1_.id as id1_0_1_,
+        categoria1_.updated_at as updated_2_0_1_,
+        categoria1_.created_at as created_3_0_1_,
+        categoria1_.nome as nome4_0_1_ 
+    from
+        produtos produto0_ 
+    left outer join
+        categorias categoria1_ 
+            on produto0_.categoria_id=categoria1_.id 
+    where
+        produto0_.id=?
+2026-03-17 15:02:40.610 DEBUG 15664 --- [nio-8080-exec-5] org.hibernate.SQL                        : 
+    delete 
+    from
+        produtos 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        produtos 
+    where
+        id=?
+2026-03-17 15:02:40.618 DEBUG 15664 --- [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [*/*]
+2026-03-17 15:02:40.618 DEBUG 15664 --- [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
+2026-03-17 15:02:40.628 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10", parameters={masked}
+2026-03-17 15:02:40.628 DEBUG 15664 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:02:40.630 DEBUG 15664 --- [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+2026-03-17 15:02:40.632 DEBUG 15664 --- [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:02:40.636 DEBUG 15664 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:02:40.636 DEBUG 15664 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:02:40.638 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:15.878 DEBUG 15664 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/categorias", parameters={}
+2026-03-17 15:03:15.879 DEBUG 15664 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#listarTodas()
+2026-03-17 15:03:15.881 DEBUG 15664 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+2026-03-17 15:03:15.885 DEBUG 15664 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:15.885 DEBUG 15664 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nome=Churras)]]
+2026-03-17 15:03:15.887 DEBUG 15664 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:25.085 DEBUG 15664 --- [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/categorias", parameters={}
+2026-03-17 15:03:25.086 DEBUG 15664 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#criar(CategoriaDTO, BindingResult)
+2026-03-17 15:03:25.087 DEBUG 15664 --- [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:25.090 DEBUG 15664 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/categorias", parameters={}
+2026-03-17 15:03:25.090 DEBUG 15664 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#criar(CategoriaDTO, BindingResult)
+2026-03-17 15:03:25.133 DEBUG 15664 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [CategoriaDTO(id=null, nome=jogos)]
+2026-03-17 15:03:25.174 DEBUG 15664 --- [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.nome=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.nome=?
+2026-03-17 15:03:25.190 DEBUG 15664 --- [nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        categorias
+        (updated_at, created_at, nome) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        categorias
+        (updated_at, created_at, nome) 
+    values
+        (?, ?, ?)
+2026-03-17 15:03:25.199 DEBUG 15664 --- [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:25.199 DEBUG 15664 --- [nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=4, nome=jogos)]
+2026-03-17 15:03:25.200 DEBUG 15664 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-03-17 15:03:25.205 DEBUG 15664 --- [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/categorias", parameters={}
+2026-03-17 15:03:25.205 DEBUG 15664 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#listarTodas()
+2026-03-17 15:03:25.207 DEBUG 15664 --- [io-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+2026-03-17 15:03:25.211 DEBUG 15664 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:25.211 DEBUG 15664 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nome=Churras), CategoriaDTO(id=4, nome=jogos)]]
+2026-03-17 15:03:25.212 DEBUG 15664 --- [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:27.132 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/categorias", parameters={}
+2026-03-17 15:03:27.133 DEBUG 15664 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#listarTodas()
+2026-03-17 15:03:27.134 DEBUG 15664 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10", parameters={masked}
+2026-03-17 15:03:27.135 DEBUG 15664 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:27.136 DEBUG 15664 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+2026-03-17 15:03:27.137 DEBUG 15664 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+2026-03-17 15:03:27.139 DEBUG 15664 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:27.141 DEBUG 15664 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:27.142 DEBUG 15664 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nome=Churras), CategoriaDTO(id=4, nome=jogos)]]
+2026-03-17 15:03:27.142 DEBUG 15664 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:27.142 DEBUG 15664 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:03:27.143 DEBUG 15664 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:27.143 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:33.026 DEBUG 15664 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10&nome=c", parameters={masked}
+2026-03-17 15:03:33.026 DEBUG 15664 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:33.043 DEBUG 15664 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+2026-03-17 15:03:33.046 DEBUG 15664 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:33.050 DEBUG 15664 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:33.051 DEBUG 15664 --- [nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:03:33.052 DEBUG 15664 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:33.634 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10", parameters={masked}
+2026-03-17 15:03:33.635 DEBUG 15664 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:33.638 DEBUG 15664 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+2026-03-17 15:03:33.641 DEBUG 15664 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:33.645 DEBUG 15664 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:33.645 DEBUG 15664 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:03:33.647 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:34.042 DEBUG 15664 --- [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10&nome=j", parameters={masked}
+2026-03-17 15:03:34.043 DEBUG 15664 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:34.046 DEBUG 15664 --- [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+2026-03-17 15:03:34.049 DEBUG 15664 --- [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:34.050 DEBUG 15664 --- [nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 0 containing UNKNOWN instances]
+2026-03-17 15:03:34.052 DEBUG 15664 --- [nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:34.258 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10&nome=jo", parameters={masked}
+2026-03-17 15:03:34.258 DEBUG 15664 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:34.261 DEBUG 15664 --- [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+2026-03-17 15:03:34.264 DEBUG 15664 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:34.265 DEBUG 15664 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 0 containing UNKNOWN instances]
+2026-03-17 15:03:34.266 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:35.034 DEBUG 15664 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10&nome=j", parameters={masked}
+2026-03-17 15:03:35.035 DEBUG 15664 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:35.038 DEBUG 15664 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ 
+    where
+        upper(produto0_.nome) like upper(?) escape ? limit ?
+2026-03-17 15:03:35.041 DEBUG 15664 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:35.042 DEBUG 15664 --- [nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 0 containing UNKNOWN instances]
+2026-03-17 15:03:35.044 DEBUG 15664 --- [nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:35.535 DEBUG 15664 --- [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10", parameters={masked}
+2026-03-17 15:03:35.535 DEBUG 15664 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:35.538 DEBUG 15664 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+2026-03-17 15:03:35.540 DEBUG 15664 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:35.544 DEBUG 15664 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:35.545 DEBUG 15664 --- [nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:03:35.546 DEBUG 15664 --- [nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:47.700 DEBUG 15664 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/produtos", parameters={}
+2026-03-17 15:03:47.700 DEBUG 15664 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#criar(ProdutoDTO, BindingResult)
+2026-03-17 15:03:47.701 DEBUG 15664 --- [nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:47.703 DEBUG 15664 --- [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/produtos", parameters={}
+2026-03-17 15:03:47.703 DEBUG 15664 --- [io-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#criar(ProdutoDTO, BindingResult)
+2026-03-17 15:03:47.717 DEBUG 15664 --- [io-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ProdutoDTO(id=null, nome=jogo, preco=0.01, categoriaId=4, quantidade=1, descricao=aa, categoriaNome= (truncated)...]
+2026-03-17 15:03:47.727 DEBUG 15664 --- [io-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:47.730 DEBUG 15664 --- [io-8080-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        produtos
+        (updated_at, categoria_id, created_at, descricao, nome, preco, quantidade) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        produtos
+        (updated_at, categoria_id, created_at, descricao, nome, preco, quantidade) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2026-03-17 15:03:47.738 DEBUG 15664 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:47.738 DEBUG 15664 --- [io-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProdutoDTO(id=4, nome=jogo, preco=0.01, categoriaId=4, quantidade=1, descricao=aa, categoriaNome=jog (truncated)...]
+2026-03-17 15:03:47.739 DEBUG 15664 --- [io-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-03-17 15:03:47.742 DEBUG 15664 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/produtos?page=0&size=10", parameters={masked}
+2026-03-17 15:03:47.743 DEBUG 15664 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.ProdutoController#listarComPaginacao(int, int, String, Long)
+2026-03-17 15:03:47.745 DEBUG 15664 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+Hibernate: 
+    select
+        produto0_.id as id1_1_,
+        produto0_.updated_at as updated_2_1_,
+        produto0_.categoria_id as categori8_1_,
+        produto0_.created_at as created_3_1_,
+        produto0_.descricao as descrica4_1_,
+        produto0_.nome as nome5_1_,
+        produto0_.preco as preco6_1_,
+        produto0_.quantidade as quantida7_1_ 
+    from
+        produtos produto0_ limit ?
+2026-03-17 15:03:47.746 DEBUG 15664 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:47.747 DEBUG 15664 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:47.750 DEBUG 15664 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:47.750 DEBUG 15664 --- [nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.dto.ProdutoDTO instances]
+2026-03-17 15:03:47.751 DEBUG 15664 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:50.186 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/categorias", parameters={}
+2026-03-17 15:03:50.186 DEBUG 15664 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#listarTodas()
+2026-03-17 15:03:50.188 DEBUG 15664 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+Hibernate: 
+    select
+        categoria0_.id as id1_0_,
+        categoria0_.updated_at as updated_2_0_,
+        categoria0_.created_at as created_3_0_,
+        categoria0_.nome as nome4_0_ 
+    from
+        categorias categoria0_
+2026-03-17 15:03:50.191 DEBUG 15664 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:50.191 DEBUG 15664 --- [nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nome=Churras), CategoriaDTO(id=4, nome=jogos)]]
+2026-03-17 15:03:50.192 DEBUG 15664 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:52.507 DEBUG 15664 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/categorias/4", parameters={}
+2026-03-17 15:03:52.507 DEBUG 15664 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#deletar(Long)
+2026-03-17 15:03:52.508 DEBUG 15664 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-03-17 15:03:52.511 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : DELETE "/api/categorias/4", parameters={}
+2026-03-17 15:03:52.512 DEBUG 15664 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#deletar(Long)
+2026-03-17 15:03:52.515 DEBUG 15664 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:03:52.518 DEBUG 15664 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    delete 
+    from
+        categorias 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        categorias 
+    where
+        id=?
+2026-03-17 15:03:52.530  INFO 15664 --- [nio-8080-exec-4] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2026-03-17 15:03:52.530 ERROR 15664 --- [nio-8080-exec-4] o.h.e.jdbc.batch.internal.BatchingBatch  : HHH000315: Exception executing batch [java.sql.BatchUpdateException: Batch entry 0 delete from categorias where id=4 was aborted: ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".  Call getNextException to see other errors in the batch.], SQL: delete from categorias where id=?
+2026-03-17 15:03:52.531  WARN 15664 --- [nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2026-03-17 15:03:52.531 ERROR 15664 --- [nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Batch entry 0 delete from categorias where id=4 was aborted: ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".  Call getNextException to see other errors in the batch.
+2026-03-17 15:03:52.531 ERROR 15664 --- [nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".
+2026-03-17 15:03:52.538 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.dao.DataIntegrityViolationException: could not execute batch; SQL [delete from categorias where id=?]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute batch
+2026-03-17 15:03:52.547 ERROR 15664 --- [nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute batch; SQL [delete from categorias where id=?]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute batch] with root cause
+
+org.postgresql.util.PSQLException: ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:573) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:896) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:919) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1677) ~[postgresql-42.7.1.jar:42.7.1]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:127) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.performExecution(BatchingBatch.java:125) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.doExecuteBatch(BatchingBatch.java:110) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.execute(AbstractBatchImpl.java:153) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.executeBatch(JdbcCoordinatorImpl.java:198) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.29.jar:5.3.29]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.29.jar:5.3.29]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.29.jar:5.3.29]
+	at com.example.service.CategoriaService$$EnhancerBySpringCGLIB$$669f52f2.deletar(<generated>) ~[classes/:na]
+	at com.example.controller.CategoriaController.deletar(CategoriaController.java:77) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561) ~[tomcat-embed-core-9.0.79.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.79.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-17 15:03:52.552 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for DELETE "/api/error", parameters={}
+2026-03-17 15:03:52.554 DEBUG 15664 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2026-03-17 15:03:52.561 DEBUG 15664 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:03:52.562 DEBUG 15664 --- [nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Mar 17 15:03:52 BRT 2026, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2026-03-17 15:03:52.568 DEBUG 15664 --- [nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2026-03-17 15:29:10.207 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : DELETE "/api/categorias/4", parameters={}
+2026-03-17 15:29:10.208 DEBUG 15664 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.controller.CategoriaController#deletar(Long)
+2026-03-17 15:29:10.210 DEBUG 15664 --- [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+Hibernate: 
+    select
+        categoria0_.id as id1_0_0_,
+        categoria0_.updated_at as updated_2_0_0_,
+        categoria0_.created_at as created_3_0_0_,
+        categoria0_.nome as nome4_0_0_ 
+    from
+        categorias categoria0_ 
+    where
+        categoria0_.id=?
+2026-03-17 15:29:10.213 DEBUG 15664 --- [nio-8080-exec-6] org.hibernate.SQL                        : 
+    delete 
+    from
+        categorias 
+    where
+        id=?
+Hibernate: 
+    delete 
+    from
+        categorias 
+    where
+        id=?
+2026-03-17 15:29:10.217  INFO 15664 --- [nio-8080-exec-6] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2026-03-17 15:29:10.218 ERROR 15664 --- [nio-8080-exec-6] o.h.e.jdbc.batch.internal.BatchingBatch  : HHH000315: Exception executing batch [java.sql.BatchUpdateException: Batch entry 0 delete from categorias where id=4 was aborted: ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".  Call getNextException to see other errors in the batch.], SQL: delete from categorias where id=?
+2026-03-17 15:29:10.218  WARN 15664 --- [nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2026-03-17 15:29:10.218 ERROR 15664 --- [nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : Batch entry 0 delete from categorias where id=4 was aborted: ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".  Call getNextException to see other errors in the batch.
+2026-03-17 15:29:10.218 ERROR 15664 --- [nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".
+2026-03-17 15:29:10.221 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.dao.DataIntegrityViolationException: could not execute batch; SQL [delete from categorias where id=?]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute batch
+2026-03-17 15:29:10.223 ERROR 15664 --- [nio-8080-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute batch; SQL [delete from categorias where id=?]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute batch] with root cause
+
+org.postgresql.util.PSQLException: ERRO: atualização ou exclusão em tabela "categorias" viola restrição de chave estrangeira "fk8rqw0ljwdaom34jr2t46bjtrn" em "produtos"
+  Detalhe: Chave (id)=(4) ainda é referenciada pela tabela "produtos".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:573) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:896) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:919) ~[postgresql-42.7.1.jar:42.7.1]
+	at org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1677) ~[postgresql-42.7.1.jar:42.7.1]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:127) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.performExecution(BatchingBatch.java:125) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.batch.internal.BatchingBatch.doExecuteBatch(BatchingBatch.java:110) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.execute(AbstractBatchImpl.java:153) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.executeBatch(JdbcCoordinatorImpl.java:198) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.29.jar:5.3.29]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.29.jar:5.3.29]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.29.jar:5.3.29]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.29.jar:5.3.29]
+	at com.example.service.CategoriaService$$EnhancerBySpringCGLIB$$669f52f2.deletar(<generated>) ~[classes/:na]
+	at com.example.controller.CategoriaController.deletar(CategoriaController.java:77) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:561) ~[tomcat-embed-core-9.0.79.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.79.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-17 15:29:10.224 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for DELETE "/api/error", parameters={}
+2026-03-17 15:29:10.225 DEBUG 15664 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2026-03-17 15:29:10.228 DEBUG 15664 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2026-03-17 15:29:10.228 DEBUG 15664 --- [nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Mar 17 15:29:10 BRT 2026, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2026-03-17 15:29:10.230 DEBUG 15664 --- [nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
